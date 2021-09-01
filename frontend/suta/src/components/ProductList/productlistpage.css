@@ -1,0 +1,107 @@
+
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+	font-family: "Century Gothic",sans-serif;
+}
+h1{
+	color: #5c5c5c;
+	text-align: center;
+}
+h4{
+	color: #5c5c5c;
+	text-align: center;
+}
+.container{
+    top: 50px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.sidebar {
+    float: left;
+    width: 17%;
+    height: 800px; /* only for demonstration, should be removed */
+    padding: 20px;
+    margin-top: 100px;
+    left:20px;
+  }
+  
+  /* Style the list inside the menu */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    color: #797878;
+    font-size: 15px;
+  }
+
+.productlist{
+    width: 80%;
+    display: flex;
+	flex-direction: row;
+    position:relative; 
+    right: 30px;
+}
+
+.category{
+	width: 100%;
+	margin: 1rem;
+	text-align: start;
+}
+.saree-img{
+	width: 100%;
+	text-align: start;
+}
+
+/* css for colour button */
+.clrbtn1{
+    background-color: blue; 
+    width: 30px;
+    height: 30px;
+}
+.clrbtn2{
+    background-color: rgb(250, 244, 220); 
+    width: 30px;
+    height: 30px;
+}
+.clrbtn3{
+    background-color: black; 
+    width: 30px;
+    height: 30px;
+}
+.clrbtn4{
+    background-color: rgb(2, 2, 73); 
+    width: 30px;
+    height: 30px;
+}
+.clrbtn5{
+    background-color: brown; 
+    width: 30px;
+    height: 30px;
+}
+.clrbtn6{
+    background-color: rgb(201, 196, 197); 
+    width: 30px;
+    height: 30px;
+}
+
+/*Category section responsive*/
+@media  (max-width: 650px){
+	.productlist{
+		display: flex;
+		flex-wrap: wrap;
+        position: relative;
+        left: 10%;
+	}
+	.category{
+        align-items: center;
+	}
+    .sidebar{
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+.header-tag {
+    background: linear-gradient(90deg, rgb(32, 28, 28) 0%, rgb(32, 28, 28) 0%);
+    height: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header-tag p {
+    color: aliceblue;
+    font-size: 9px;
+    padding-top: 8px;
+    text-align: center;
+}
